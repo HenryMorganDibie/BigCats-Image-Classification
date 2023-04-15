@@ -29,8 +29,9 @@ I experimented with different deep learning models, including  and MobileNetV2, 
 
 I trained the models using a categorical cross-entropy loss function and the Adam optimizer. I also used early stopping to prevent overfitting and reduce training time.
 
-I trained a convolutional neural network with three convolutional layers, two dense layers, and a final output layer with 10 nodes corresponding to the 10 animal classes. We used the Adam optimizer and categorical cross-entropy loss function, and trained the model for 10 epochs with a batch size of 32. The model achieved a test accuracy of 0.625.
-Overall, we found that MobileNetV2 had the best performance, achieving an accuracy of 98.6% on the test set. This model was used to make predictions on new images.
+I trained a convolutional neural network with three convolutional layers, two dense layers, and a final output layer with 10 nodes corresponding to the 10 animal classes. I used the Adam optimizer and categorical cross-entropy loss function, and trained the model for 10 epochs with a batch size of 32. The model achieved a test accuracy of 0.625 or 63%.
+
+Overall, I found that MobileNetV2 had the best performance, achieving an accuracy of 96.00% on the test set. This model was used to make predictions on new images.
 
 
 
