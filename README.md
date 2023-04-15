@@ -1,6 +1,9 @@
 # BigCats-Image-Classification
 * Here's a summary of the exploratory data analysis (EDA) performed on the dataset:
 
+Importing the necessary libraries and loading the dataset.
+Checked for info, dtypes, got to understand the length and shape of the dataset, as well as if their were null vallues.
+
 The dataset contains a total of 2440 images of 10 different species of big cats, with 80% of the images allocated to the training set and 20% allocated to the validation set. The images are distributed across 10 classes, one for each species of big cat.
 
 The dataset appears to be balanced, with each class containing approximately the same number of images.
@@ -31,7 +34,7 @@ I trained the models using a categorical cross-entropy loss function and the Ada
 
 I trained a convolutional neural network with three convolutional layers, two dense layers, and a final output layer with 10 nodes corresponding to the 10 animal classes. I used the Adam optimizer and categorical cross-entropy loss function, and trained the model for 10 epochs with a batch size of 32. The model achieved a test accuracy of 0.625 or 63%.
 
-Overall, I found that MobileNetV2 had the best performance, achieving an accuracy of 96.00% on the test set. This model was used to make predictions on new images.
+Overall, I found that Transfer Learning model, MobileNetV2, has the best performance, achieving an accuracy of 96.00% on the test set. This model was used to make predictions on new images.
 
 
 
