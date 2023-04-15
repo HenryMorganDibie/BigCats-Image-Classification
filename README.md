@@ -1,4 +1,8 @@
 # BigCats-Image-Classification
+
+### Explanation of dataset, prediction and its analysis here, 
+https://medium.com/@HenryMorgansDiary/big-cats-image-classification-using-ml-and-dl-techniques-c39192958ff5
+
 * Here's a summary of the exploratory data analysis (EDA) performed on the dataset:
 
 Importing the necessary libraries and loading the dataset.
